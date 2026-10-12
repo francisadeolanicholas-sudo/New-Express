@@ -13,7 +13,9 @@ app.get('/', (req: Request, res: Response) => {
     res.send('Welcome to Express server!');
 });
 app.get('/login', (req: Request, res: Response) => {
-    res.send('Login with your details');
+    let random : string[] = ["Believe in yourself", "Never give up", "Stay focused", "Your dreams are valid", "Be patient with your progress"];
+    Math.random()
+    res.send('');
 });
 app.get('/register', (req: Request, res: Response) => {
     res.send('Enter your details to Register');
